@@ -1,0 +1,27 @@
+{
+  "name": "spren-prediction-engine",
+  "version": "0.0.9+6a120d97",
+  "description": "ReactNative SDK for Spren Predicton Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "vipintom",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native": "0.64.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipintom/spren-prediction-engine-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vipintom/spren-prediction-engine-react/issues"
+  },
+  "homepage": "https://github.com/vipintom/spren-prediction-engine-react#readme",
+  "yalcSig": "6a120d97775d65d7c405b07fd68c9110"
+}

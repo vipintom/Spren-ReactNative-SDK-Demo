@@ -1,0 +1,6 @@
+{
+"labels":["0","O","OTP","[CLS]","[SEP]"],
+"bert_tflite" : {"file" : "bert.tflite", "MD5" : "70157ae94462b258e862c20c9ff5dcf2"},
+"recog_tflite" : {"file" : "recog.tflite", "MD5" : "b6cec42940b77e0d5ae56ecff3702a14"},
+"vocab" : {"file" : "recog_vocab.txt", "MD5" : "93deec3f8243b4594a4aedc219e099fb"}
+}
