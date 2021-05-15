@@ -1,6 +1,0 @@
-{
-"labels":["Order", "Others" , "OTP"], 
-"thresholds" : { "Order" : 0.5,"OTP" : 0.9 },
-"tflite" : {"file" : "classification_full.tflite", "MD5" : "9C5DD005A3F2B0EC7E6A51DB954EE21C"},
-"vocab" : {"file" : "class_vocab.txt", "MD5" : "64800d5d8528ce344256daf115d4965e"}
-}

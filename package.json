@@ -11,7 +11,7 @@
   "dependencies": {
     "react": "17.0.1",
     "react-native": "0.64.0",
-    "spren-prediction-engine": "file:.yalc/spren-prediction-engine"
+    "spren-prediction-engine": "0.0.10"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",

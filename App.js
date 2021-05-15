@@ -44,22 +44,6 @@
      try {
        var response = await engine.close()
        this.setState({ closeid: JSON.stringify(response)})
-
-
-      var r = await engine.init("rpufb8nsc6x3pz9qjx9d7szb")
-      var output = JSON.stringify(r)
-      if(response["result"] == 100)
-      {
-        r = await engine.evaluate("Your Input Text here")
-        output = output + JSON.stringify(r)
-        r = await engine.close()
-        output = output + JSON.stringify(r)
-      }
-      else
-      {
-        
-      }
-      this.setState({ closeid: output})
      } catch(e) {
        this.setState({ closeid: e})
      }
