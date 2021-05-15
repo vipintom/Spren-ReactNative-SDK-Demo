@@ -22,7 +22,7 @@
    init = async () => {
      this.setState({ nativeResult: "loading..."})
      try {
-       var response = await engine.init("rpufb8nsc6x3pz9qjx9d7szb")
+       var response = await engine.init("your-api-key-here")
        this.setState({ nativeResult: JSON.stringify(response)})
       } catch(e) {
        this.setState({ nativeResult: e})
